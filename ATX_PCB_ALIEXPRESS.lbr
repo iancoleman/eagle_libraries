@@ -59,7 +59,7 @@
 </layers>
 <library>
 <packages>
-<package name="ATX_4p2mm">
+<package name="ATX_4P2MM">
 <description>ATX Header, 4.20mm Pitch, 4.20mm Holes, Dual Row, 24 Circuits; https://www.aliexpress.com/item/5pcs-Motherboard-ATX-4-2-mm-24-pin-Male-Header-Pins-24-Position-Mainboard-CPU-Power/32852790774.html</description>
 <wire x1="-25.7" y1="4.5" x2="25.7" y2="4.5" width="0.254" layer="21"/>
 <wire x1="25.7" y1="4.5" x2="25.7" y2="-2.2" width="0.254" layer="21"/>
@@ -112,7 +112,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATX_4p2mm" prefix="X">
+<deviceset name="ATX_4P2MM" prefix="X">
 <description>ATX connector 24 pin 4.2mm width</description>
 <gates>
 <gate name="-1" symbol="MV" x="0" y="27.94" addlevel="always"/>
@@ -141,7 +141,7 @@
 <gate name="-24" symbol="M" x="0" y="-30.48" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="ATX_4p2mm">
+<device name="" package="ATX_4P2MM">
 <connects>
 <connect gate="-1" pin="S" pad="1"/>
 <connect gate="-10" pin="S" pad="10"/>
