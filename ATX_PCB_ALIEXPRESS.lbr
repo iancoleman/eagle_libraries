@@ -62,14 +62,12 @@
 <package name="ATX_4P2MM">
 <description>ATX Header, 4.20mm Pitch, 4.20mm Holes, Dual Row, 24 Circuits; https://www.aliexpress.com/item/5pcs-Motherboard-ATX-4-2-mm-24-pin-Male-Header-Pins-24-Position-Mainboard-CPU-Power/32852790774.html</description>
 <wire x1="-25.7" y1="4.5" x2="25.7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="25.7" y1="4.5" x2="25.7" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="25.7" y1="-3.3" x2="25.7" y2="-4.9" width="0.254" layer="21"/>
+<wire x1="25.7" y1="4.5" x2="25.7" y2="-4.9" width="0.254" layer="21"/>
 <wire x1="25.7" y1="-4.9" x2="-25.7" y2="-4.9" width="0.254" layer="21"/>
 <wire x1="-25.7" y1="-4.9" x2="-25.7" y2="4.5" width="0.254" layer="21"/>
-<wire x1="25.7" y1="-2.2" x2="25.7" y2="-3.3" width="0.254" layer="21" curve="-180"/>
-<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="27"/>
-<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="27"/>
-<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="27"/>
+<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="21"/>
+<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="21"/>
+<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="22"/>
 <pad name="1" x="23.1" y="-2.1" drill="1.524" shape="square"/>
 <pad name="2" x="18.9" y="-2.1" drill="1.524" shape="square"/>
 <pad name="3" x="14.7" y="-2.1" drill="1.524" shape="square"/>
